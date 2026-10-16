@@ -10,6 +10,7 @@ function displayUser(userInfo){
 	header.className = userInfo.theme
 
 	const description = document.createElement("p")
+	description.textContent = userInfo.description
 	const body = document.querySelector("body")
 
 	body.append(description)
